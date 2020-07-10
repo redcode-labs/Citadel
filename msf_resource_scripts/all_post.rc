@@ -1,0 +1,12 @@
+<ruby>
+selected_sessions = framework.datastore["SESSIONS"].split(",")
+background_run = ""
+if framework.datastore["BG"] == "true"
+	background_run = "-j"
+end
+selected_sessions.each do |num,session|
+	run_single("set session #{num}")
+	print_status("Running #{active_module.fullname} against session #{num}")
+	run_single("run #{background_run}")
+end
+</ruby>

@@ -1,0 +1,18 @@
+clear
+color true
+load alias
+load post
+alias -f x resource msf_rc/all_post.rc
+alias -f sg setg
+alias si sessions -i
+alias sk sessions -K
+alias sl sessions -v
+alias i resource msf_rc/show_all_info.rc
+alias c clear
+alias u use
+alias -f r run
+alias j jobs -v
+alias jk jobs -k
+alias rc resource
+alias adv advanced
+set PROMPT [%redsessions:%whi%S %blujobs:%whi%J] 
