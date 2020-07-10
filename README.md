@@ -29,7 +29,7 @@ Citadel is a collection of various scripts that I wrote for use in pentesting-re
 
 
 
-<br>
+
 ## vars.zsh
 <p align="center">
   <a>
@@ -38,7 +38,7 @@ Citadel is a collection of various scripts that I wrote for use in pentesting-re
 </p>
 Exports useful networking variables that can be used directly in terminal. 
 
-<br>
+
 ## msf\_resource\_scripts
 <p align="center">
   <a>
@@ -48,7 +48,7 @@ Exports useful networking variables that can be used directly in terminal.
 This directory contains a few `.rc` files for Metasploit Framework Console that automate certain tasks in the CLI. In order for them to work properly, put all scripts from this directory into your default path containing resource scripts for the framework, then load the main file: `msf5> resource main.rc`.  
 
 
-<br>
+
 ## dnsdump.py
 <p align="center">
   <a>
@@ -58,7 +58,7 @@ This directory contains a few `.rc` files for Metasploit Framework Console that 
 
 Downloads an image representation of DNS graph from [dnsdump.com](http://dnsdump.com).
 
-<br>
+
 ## fileinfo.zsh
 <p align="center">
   <a>
@@ -68,7 +68,7 @@ Downloads an image representation of DNS graph from [dnsdump.com](http://dnsdump
 
 Presents basic information about selected file.  
 
-<br>
+
 ## fileserver.py
 <p align="center">
   <a>
@@ -78,7 +78,7 @@ Presents basic information about selected file.
 
 Simple file server that exposes a local directory.
 
-<br>
+
 ## opcodes.zsh
 <p align="center">
   <a>
@@ -87,7 +87,7 @@ Simple file server that exposes a local directory.
 </p>
 Extracts opcodes from a binary, and prints them to STDOUT. Useful in shellcode development.
 
-<br>
+
 ## stackpush.zsh
 <p align="center">
   <a>
@@ -96,7 +96,7 @@ Extracts opcodes from a binary, and prints them to STDOUT. Useful in shellcode d
 </p>
 Generates assembly instructions that push desired string onto the stack.
 
-<br>
+
 ## ssl_convert.zsh
 <p align="center">
   <a>
@@ -105,7 +105,7 @@ Generates assembly instructions that push desired string onto the stack.
 </p>
 Performs common OpenSSL file conversions.
 
-<br>
+
 ## gitdownload.zsh
 <p align="center">
   <a>
