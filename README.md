@@ -30,7 +30,7 @@ Citadel is a collection of various scripts that I wrote for use in pentesting-re
 
 
 <br>
-### vars.zsh
+## vars.zsh
 <p align="center">
   <a>
     <img src="img/vars_screen.png">
@@ -39,7 +39,7 @@ Citadel is a collection of various scripts that I wrote for use in pentesting-re
 Exports useful networking variables that can be used directly in terminal. 
 
 <br>
-### msf\_resource\_scripts
+## msf\_resource\_scripts
 <p align="center">
   <a>
     <img src="img/msfscripts_screen.png">
@@ -49,7 +49,7 @@ This directory contains a few `.rc` files for Metasploit Framework Console that 
 
 
 <br>
-### dnsdump.py
+## dnsdump.py
 <p align="center">
   <a>
     <img src="img/dnsdump_screen.png">
@@ -59,7 +59,7 @@ This directory contains a few `.rc` files for Metasploit Framework Console that 
 Downloads an image representation of DNS graph from [dnsdump.com](http://dnsdump.com).
 
 <br>
-### fileinfo.zsh
+## fileinfo.zsh
 <p align="center">
   <a>
     <img src="img/fileinfo_screen.png">
@@ -69,7 +69,7 @@ Downloads an image representation of DNS graph from [dnsdump.com](http://dnsdump
 Presents basic information about selected file.  
 
 <br>
-### fileserver.py
+## fileserver.py
 <p align="center">
   <a>
     <img src="img/fileserver_screen.png">
@@ -79,7 +79,7 @@ Presents basic information about selected file.
 Simple file server that exposes a local directory.
 
 <br>
-### opcodes.zsh
+## opcodes.zsh
 <p align="center">
   <a>
     <img src="img/opcodes_screen.png">
@@ -88,7 +88,7 @@ Simple file server that exposes a local directory.
 Extracts opcodes from a binary, and prints them to STDOUT. Useful in shellcode development.
 
 <br>
-### stackpush.zsh
+## stackpush.zsh
 <p align="center">
   <a>
     <img src="img/stackpush_screen.png">
@@ -97,7 +97,7 @@ Extracts opcodes from a binary, and prints them to STDOUT. Useful in shellcode d
 Generates assembly instructions that push desired string onto the stack.
 
 <br>
-### ssl_convert.zsh
+## ssl_convert.zsh
 <p align="center">
   <a>
     <img src="img/sslconvert_screen.png">
@@ -106,7 +106,7 @@ Generates assembly instructions that push desired string onto the stack.
 Performs common OpenSSL file conversions.
 
 <br>
-### gitdownload.zsh
+## gitdownload.zsh
 <p align="center">
   <a>
     <img src="img/gitdownload_screen.png">
