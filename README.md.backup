@@ -50,13 +50,7 @@ Exports useful networking variables that can be used directly in terminal.
 </p>
 This directory contains a few `.rc` files for Metasploit Framework Console that automate certain tasks in the CLI. In order for them to work properly, put all scripts from this directory into your default path containing resource scripts for the framework, then load the main file: `msf5> resource main.rc`.  
 
-## sf_parser.py
-<p align="center">
-  <a>
-    <img src="img/sf_parser_screen.png">
-  </a>
-</p>
-Pretty-print results of a SpiderFoot scan
+
 
 ## dnsdump.py
 <p align="center">
@@ -140,7 +134,13 @@ Quickly switch between modes of a network interface.
 </p>
 Creates a command stager that will execute provided Powershell script
 
-
+## sf_parser.py
+<p align="center">
+  <a>
+    <img src="img/sf_parser_screen.png">
+  </a>
+</p>
+Pretty-print results of a SpiderFoot scan
 
 
 ## License
