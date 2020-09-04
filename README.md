@@ -27,6 +27,7 @@ Citadel is a collection of various scripts for pentest-related tasks.
 - [cardmon.zsh](#cardmon.zsh)
 - [powershell\_cmd\_stager.py](#powershell_cmd_stager.py)
 - [sf_parser.py](#sf_parser.py)
+- [xml\_to_json.py](#xml_to_json.py)
 
 
 
@@ -139,6 +140,14 @@ Quickly switch between modes of a network interface.
   </a>
 </p>
 Creates a command stager that will execute provided Powershell script
+
+## xml\_to_json.py
+<p align="center">
+  <a>
+    <img src="img/xml_to_json_screen.png">
+  </a>
+</p>
+Converts a .xml file to JSON
 
 
 
