@@ -28,6 +28,7 @@ Citadel is a collection of various scripts for pentest-related tasks.
 - [powershell\_cmd\_stager.py](#powershell_cmd_stager.py)
 - [sf_parser.py](#sf_parser.py)
 - [xml\_to_json.py](#xml_to_json.py)
+- [enum_forms.py](#enum_forms.py)
 
 
 
@@ -148,6 +149,15 @@ Creates a command stager that will execute provided Powershell script
   </a>
 </p>
 Converts a .xml file to JSON
+
+## enum_forms.py
+<p align="center">
+  <a>
+    <img src="img/enum_forms_screen.png">
+  </a>
+</p>
+Scrapes forms from URL
+
 
 
 
