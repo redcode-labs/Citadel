@@ -15,4 +15,4 @@ alias j jobs -v
 alias jk jobs -k
 alias rc resource
 alias adv advanced
-set PROMPT [%redsessions:%whi%S %blujobs:%whi%J] 
+set PROMPT [%redsessions:%whi%S %grnjobs:%whi%J] %yel%L%whi  
