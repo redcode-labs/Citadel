@@ -11,7 +11,8 @@ bold=`tput bold`
 underline=`tput smul`
 
 
-iface=`ip addr show | awk '/inet.*brd/{print $NF}'`
+#iface=`ip addr show | awk '/inet.*brd/{print $NF}'`
+iface=$(ip addr show|grep default|grep -i up|grep -vi loopback|tail -1|awk '{print $2}'|sed 's/:/'/)
 hostname=`cat /etc/hostname`
 ip_re="(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
 mac_re="\w\w:\w\w:\w\w:\w\w:\w\w:\w\w"
@@ -19,7 +20,8 @@ ip_loopback="127.0.0.1"
 ip_local=`ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1  -d'/'`
 ip_global=`curl -s http://whatismyip.akamai.com/`
 ip_gateway=`ip route show 0.0.0.0/0 dev $iface | cut -d\  -f3`
-network=`iwconfig $iface | grep ESSID | awk -F: '{print $2}' 2>/dev/null` 
+network=`iwconfig wlp3s0 | grep ESSID | awk -F: '{print $2}' 2>/dev/null` 
+network=`echo $network|tr -d \"`
 subnet=`ip -o -f inet addr show | awk '/scope global/ {print $4}'`
 
 if [[ "$@" =~ .*-h.* ]]; then
