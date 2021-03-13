@@ -29,6 +29,7 @@ Citadel is a collection of various scripts for pentest-related tasks.
 - [sf_parser.py](#sf_parser.py)
 - [xml\_to_json.py](#xml_to_json.py)
 - [enum_forms.py](#enum_forms.py)
+- [linker.sh](#linker.sh)
 
 
 
@@ -159,6 +160,8 @@ Converts a .xml file to JSON
 Scrapes forms from URL
 
 
+## linker.sh
+Creates symbolic links under '.' for all executables found in given directory
 
 
 
