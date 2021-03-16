@@ -30,6 +30,7 @@ Citadel is a collection of various scripts for pentest-related tasks.
 - [xml\_to_json.py](#xml_to_json.py)
 - [enum_forms.py](#enum_forms.py)
 - [linker.sh](#linker.sh)
+- [shellstorm.py](#shellstorm.py)
 
 
 
@@ -163,6 +164,13 @@ Scrapes forms from URL
 ## linker.sh
 Creates symbolic links under '.' for all executables found in given directory
 
+## shellstorm.py
+<p align="center">
+  <a>
+    <img src="img/shellstorm_screen.png">
+  </a>
+</p>
+Searches for shellcodes using Shellstorm API. You can extract raw bytes of the shellcode and write it to a file
 
 
 ## License
