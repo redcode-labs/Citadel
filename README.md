@@ -30,6 +30,7 @@ Citadel is a collection of various scripts for pentest-related tasks.
 - [xml\_to_json.py](#xml_to_json.py)
 - [enum_forms.py](#enum_forms.py)
 - [linker.sh](#linker.sh)
+- [init_commit.sh](#init_commit.sh)
 - [shellstorm.py](#shellstorm.py)
 
 
@@ -163,6 +164,9 @@ Scrapes forms from URL
 
 ## linker.sh
 Creates symbolic links under '.' for all executables found in given directory
+
+## init_commit.sh
+Creates a .git repository and pushes all files to remote
 
 ## shellstorm.py
 <p align="center">
