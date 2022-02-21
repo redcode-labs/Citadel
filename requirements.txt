@@ -1,0 +1,7 @@
+argparse
+requests
+huepy
+terminaltables
+zetanize
+bottle
+xmltodict
